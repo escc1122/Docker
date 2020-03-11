@@ -9,7 +9,6 @@ https://yeasy.gitbooks.io/docker_practice/image/commit.html
 //docker run
 
 docker run -it --name mysql-11111111 -v D:\docker_data\mysql:/var/lib/mysql -v D:\docker_data\mysql_log:/tmp/log  -p 3306:3306 -d 
-
 mysql:aaaaaaa
 
 //docker save
