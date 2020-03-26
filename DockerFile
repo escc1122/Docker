@@ -1,0 +1,10 @@
+FROM centos/systemd
+
+USER root
+WORKDIR /root
+
+SHELL ["/bin/bash", "-c"] 
+
+RUN mkdir al_test \
+
+	
