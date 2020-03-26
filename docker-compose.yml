@@ -5,3 +5,5 @@ services:
      volumes:
      - ./outer:/root/al_test
      restart: always
+     ports:
+       - 80:80
