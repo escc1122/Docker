@@ -43,9 +43,9 @@ docker-compose ps
 docker build -t "al_test:20-03-25" .
 
 ## docker update
-docker update --restart=always <CONTAINER ID>
+docker update --restart=always CONTAINER_ID
   
 ## docker exec
-docker exec -it <CONTAINER ID> bash
+docker exec -it CONTAINER_ID bash
 
 
