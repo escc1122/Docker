@@ -1,0 +1,6 @@
+version: '3.7'
+services:
+  al_test:
+     image: al_test:20-03-25
+     volumes:
+     - ./outer:/root/al_test
