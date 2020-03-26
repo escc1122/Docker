@@ -28,3 +28,19 @@ docker tag mysql-5.7.26:200305(images) mysql-5.7.26:20-03-24(new tag)
 "insecure-registries": ["111.111.111.111:5555"]
 docker push 111.111.111.111:5555/mysql-5.7.26:20-03-24
 curl -X GET h ttp://111.111.111.111:5555/v2/_catalog
+
+
+//docker-compose
+
+docker-compose up -d
+
+docker-compose down
+
+docker-compose ps
+
+//docker build
+
+docker build -t "al_test:20-03-25" .
+
+
+
