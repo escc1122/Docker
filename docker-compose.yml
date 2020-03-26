@@ -4,3 +4,4 @@ services:
      image: al_test:20-03-25
      volumes:
      - ./outer:/root/al_test
+     restart: always
