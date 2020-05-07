@@ -56,4 +56,4 @@ docker exec -it CONTAINER_ID bash
 ## o
 docker network ls
 
-
+docker network inspect bridge
