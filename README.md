@@ -53,3 +53,7 @@ docker update --restart=always CONTAINER_ID
 docker exec -it CONTAINER_ID bash
 
 
+## o
+docker network ls
+
+
