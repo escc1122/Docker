@@ -1,5 +1,18 @@
 # Docker
 
+
+## 下載images
+docker pull mysql/mysql-server:latest
+
+https://docs.docker.com/engine/reference/commandline/pull/
+
+## 查
+https://docs.docker.com/engine/reference/commandline/images/
+
+docker images
+
+
+
 ## 完整狀態 不縮邊
 docker ps --no-trunc
 
@@ -10,6 +23,8 @@ https://yeasy.gitbooks.io/docker_practice/image/commit.html
 
 docker run -it --name mysql-11111111 -v D:\docker_data\mysql:/var/lib/mysql -v D:\docker_data\mysql_log:/tmp/log  -p 3306:3306 -d 
 mysql:aaaaaaa
+
+https://docs.docker.com/engine/reference/run/
 
 ## docker save
 
