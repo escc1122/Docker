@@ -28,6 +28,11 @@ run -it --name leave_mysql -p 3307:3306 -e MYSQL_ROOT_PASSWORD=pwd -d mysql/mysq
 
 https://docs.docker.com/engine/reference/run/
 
+# 自動啟動
+docker run --restart=always
+
+docker update --restart=always <CONTAINER ID>
+
 ## docker save
 
 docker save -o mysql.tar mysql:aaaaaaa
