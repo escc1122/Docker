@@ -1,0 +1,25 @@
+version: '3.7'
+services:
+  al_test:
+     image: docker_dev:20-06-10_1
+     restart: always
+     privileged: "true"
+     volumes:
+     - D:\al_tmp\docker_dev\nginx.conf:/usr/local/nginx/conf/nginx.conf
+     - D:\docker:/home/centos/outer
+     - CENTOS:/home/centos
+     ports:
+     - "80:80"
+     - "22222:22"
+     depends_on:
+     - mysql
+  mysql:
+    image: mysql-5.7.26:20-03-24
+    volumes:
+    - D:\docker_data\mysql:/var/lib/mysql
+    - D:\docker_data\mysql_log:/tmp/log
+    ports:
+    - 3306:3306
+    restart: always
+volumes:
+  CENTOS:
