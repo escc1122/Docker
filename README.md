@@ -79,3 +79,8 @@ docker exec -it CONTAINER_ID bash
 docker network ls
 
 docker network inspect bridge
+
+
+##
+
+https://github.com/docker/for-win/issues/7348
