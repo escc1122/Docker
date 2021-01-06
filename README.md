@@ -25,6 +25,7 @@ docker run -it --name mysql-11111111 -v D:\docker_data\mysql:/var/lib/mysql -v D
 
 
 docker run -it --name leave_mysql -p 3307:3306 -e MYSQL_ROOT_PASSWORD=pwd -d mysql/mysql-server:latest
+
 docker run -it --name le_mysql --net=host -e MYSQL_ROOT_PASSWORD=pwd -d mysql:5.7.26
 
 https://docs.docker.com/engine/reference/run/
