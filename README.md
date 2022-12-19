@@ -90,3 +90,7 @@ https://github.com/docker/for-win/issues/7348
 ##
 
 https://ithelp.ithome.com.tw/articles/10193291
+
+## es
+    wsl -d docker-desktop
+    sysctl -w vm.max_map_count=262144
