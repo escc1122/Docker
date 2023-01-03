@@ -76,6 +76,10 @@ docker update --restart=always CONTAINER_ID
 ## docker exec
 docker exec -it CONTAINER_ID bash
 
+Alpine:
+
+docker exec -it XXXXX /bin/sh
+
 
 ## o
 docker network ls
